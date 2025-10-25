@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-mergeDebugResources-37:\\layout\\activity_onboarding.xml",
+        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\activity_onboarding.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-mergeDebugResources-37:/layout/item_flight.xml",
+        "source": "com.example.succulentus.app-main-40:/layout/item_flight.xml"
+    },
+    {
+        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-mergeDebugResources-37:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-mergeDebugResources-37:/layout/activity_flights.xml",
+        "source": "com.example.succulentus.app-main-40:/layout/activity_flights.xml"
+    },
+    {
+        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-mergeDebugResources-37:\\layout\\item_flight.xml",
+        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\item_flight.xml"
+    },
+    {
+        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-mergeDebugResources-37:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\activity_sign_up.xml"
+    }
+]
