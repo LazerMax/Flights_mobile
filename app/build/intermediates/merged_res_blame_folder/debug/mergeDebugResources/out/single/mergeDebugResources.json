@@ -1,194 +1,190 @@
 [
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\activity_sign_up.xml"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xhdpi_logo_3_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xhdpi/logo_3_round.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xhdpi_logo_3.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xhdpi/logo_3.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\drawable_outline_account_circle_64.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\drawable\\outline_account_circle_64.xml"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-mdpi_logo_3_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-mdpi/logo_3_round.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\font_nova.ttf.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\font\\nova.ttf"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-hdpi_logo_3_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-hdpi/logo_3_round.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\activity_login.xml"
+        "merged": "com.example.succulentus.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\layout_activity_onboarding.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\activity_onboarding.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-anydpi-v26_logo_3.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-anydpi-v26\\logo_3.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\drawable_flight_item_background.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\drawable\\flight_item_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxxhdpi_logo_3_foreground.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxxhdpi\\logo_3_foreground.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\layout_item_flight.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\item_flight.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\drawable_status_background.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\drawable\\status_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxhdpi_logo_3_foreground.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxhdpi\\logo_3_foreground.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxxhdpi_logo_3_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxxhdpi\\logo_3_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\font_novascript_regular.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\font\\novascript_regular.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-anydpi-v26_logo_3_round.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-anydpi-v26\\logo_3_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xhdpi_logo_3_foreground.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xhdpi\\logo_3_foreground.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xhdpi_logo_3_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xhdpi\\logo_3_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-mdpi_logo_3_foreground.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-mdpi\\logo_3_foreground.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-hdpi_logo_3.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-hdpi\\logo_3.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\drawable_gradient_background.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\drawable\\gradient_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxhdpi_logo_3.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxhdpi\\logo_3.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\drawable_logo_3_background.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\drawable\\logo_3_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxxhdpi_logo_3.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxxhdpi\\logo_3.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxxhdpi_logo_3.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxxhdpi/logo_3.webp"
     },
     {
         "merged": "com.example.succulentus.app-debug-38:/layout_activity_flights.xml.flat",
         "source": "com.example.succulentus.app-main-40:/layout/activity_flights.xml"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxhdpi_logo_3_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxhdpi\\logo_3_round.webp"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-mdpi_logo_3.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-mdpi/logo_3.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-hdpi_logo_3_foreground.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-hdpi\\logo_3_foreground.webp"
+        "merged": "com.example.succulentus.app-debug-38:/font_nova.ttf.flat",
+        "source": "com.example.succulentus.app-main-40:/font/nova.ttf"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\layout\\activity_main.xml"
+        "merged": "com.example.succulentus.app-debug-38:/layout_activity_onboarding.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/layout/activity_onboarding.xml"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-hdpi_logo_3_foreground.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-hdpi/logo_3_foreground.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/font_novascript_regular.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/font/novascript_regular.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-hdpi_logo_3.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-hdpi/logo_3.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-anydpi-v26_logo_3.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-anydpi-v26/logo_3.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/drawable_outline_account_circle_64.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/drawable/outline_account_circle_64.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/drawable_logo_3_background.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/drawable/logo_3_background.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxxhdpi_logo_3_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxxhdpi/logo_3_round.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxhdpi_logo_3.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxhdpi/logo_3.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxhdpi_logo_3_foreground.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxhdpi/logo_3_foreground.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxhdpi_logo_3_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxhdpi/logo_3_round.webp"
     },
     {
         "merged": "com.example.succulentus.app-debug-38:/layout_item_flight.xml.flat",
         "source": "com.example.succulentus.app-main-40:/layout/item_flight.xml"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-anydpi-v26_logo_3_round.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-anydpi-v26/logo_3_round.xml"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-mdpi_logo_3_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-mdpi\\logo_3_round.webp"
+        "merged": "com.example.succulentus.app-debug-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-xhdpi_logo_3.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-xhdpi\\logo_3.webp"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-mdpi_logo_3_foreground.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-mdpi/logo_3_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\drawable_outline_add_24.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\drawable\\outline_add_24.xml"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-mdpi_logo_3.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-mdpi\\logo_3.webp"
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-hdpi_logo_3_round.webp.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-hdpi\\logo_3_round.webp"
+        "merged": "com.example.succulentus.app-debug-38:/layout_activity_login.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-debug-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\felsh\\.gradle\\daemon\\8.13\\com.example.succulentus.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.succulentus.app-debug-38:/drawable_gradient_background.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/drawable_flight_item_background.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/drawable/flight_item_background.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxxhdpi_logo_3_foreground.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxxhdpi/logo_3_foreground.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/drawable_outline_add_24.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/drawable/outline_add_24.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xhdpi_logo_3_foreground.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xhdpi/logo_3_foreground.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/drawable_status_background.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/drawable/status_background.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/xml_backup_rules.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.succulentus.app-main-40:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.succulentus.app-debug-38:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.succulentus.app-main-40:/mipmap-xxxhdpi/ic_launcher.webp"
     }
 ]

@@ -11,6 +11,7 @@ import androidx.activity.OnBackPressedCallback
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import java.util.regex.Pattern
 
 class LoginActivity : LoggingActivity() {
 
@@ -79,7 +80,7 @@ class LoginActivity : LoggingActivity() {
         }
 
         if (!isValidUsername(username)) {
-            showToast("Введите корректный username")
+            showToast("Имя пользователя должно содержать от 3 до 20 символов (буквы, цифры, _)")
             editTextUsername.requestFocus()
             return false
         }
@@ -90,7 +91,13 @@ class LoginActivity : LoggingActivity() {
             return false
         }
 
-        if (!checkUserInDatabase(username, password)) {
+        if (!isValidPassword(password)) {
+            showToast("Пароль должен содержать хотя бы одну букву и одну цифру")
+            editTextPassword.requestFocus()
+            return false
+        }
+
+        if (!UserManager.validateUser(username, password)) {
             showToast("Неверный username или пароль")
             return false
         }
@@ -99,14 +106,17 @@ class LoginActivity : LoggingActivity() {
     }
 
     private fun isValidUsername(username: String): Boolean {
-        return true
+        val usernameRegex = "^[a-zA-Z0-9_]{3,20}$"
+        return Pattern.matches(usernameRegex, username)
+    }
+
+    private fun isValidPassword(password: String): Boolean {
+        val hasLetter = password.any { it.isLetter() }
+        val hasDigit = password.any { it.isDigit() }
+        return hasLetter && hasDigit
     }
 
     private fun showToast(message: String) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
-    }
-
-    private fun checkUserInDatabase(username: String, password: String): Boolean {
-        return true
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show()
     }
 }

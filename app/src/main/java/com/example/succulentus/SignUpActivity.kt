@@ -8,10 +8,10 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.activity.OnBackPressedCallback
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import java.util.regex.Pattern
 
 class SignUpActivity : LoggingActivity() {
 
@@ -30,15 +30,6 @@ class SignUpActivity : LoggingActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        val onBackPressedCallback = object : OnBackPressedCallback(true) {
-            override fun handleOnBackPressed() {
-                val intent = Intent(this@SignUpActivity, LoginActivity::class.java)
-                startActivity(intent)
-                finish()
-            }
-        }
-        onBackPressedDispatcher.addCallback(this, onBackPressedCallback)
 
         editTextUsernameNew = findViewById(R.id.editTextUsernameNew)
         editTextTextEmailAddress = findViewById(R.id.editTextTextEmailAddress)
@@ -65,7 +56,9 @@ class SignUpActivity : LoggingActivity() {
         }
 
         buttonHaveAccount.setOnClickListener {
-            onBackPressedDispatcher.onBackPressed()
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 
@@ -99,20 +92,28 @@ class SignUpActivity : LoggingActivity() {
             return false
         }
 
+        // Проверка формата username (как в LoginActivity)
+        if (!isValidUsername(username)) {
+            showToast("Имя пользователя должно содержать от 3 до 20 символов (буквы, цифры, _)")
+            editTextUsernameNew.requestFocus()
+            return false
+        }
+
         if (!isValidEmail(email)) {
             showToast("Введите корректный email")
             editTextTextEmailAddress.requestFocus()
             return false
         }
 
-        if (username.length < 3) {
-            showToast("Имя пользователя должно содержать минимум 3 символа")
-            editTextUsernameNew.requestFocus()
+        // Проверка пароля (как в LoginActivity)
+        if (password.length < 5) {
+            showToast("Пароль должен содержать минимум 5 символов")
+            editTextPasswordNew.requestFocus()
             return false
         }
 
-        if (password.length < 6) {
-            showToast("Пароль должен содержать минимум 6 символов")
+        if (!isValidPassword(password)) {
+            showToast("Пароль должен содержать хотя бы одну букву и одну цифру")
             editTextPasswordNew.requestFocus()
             return false
         }
@@ -123,15 +124,25 @@ class SignUpActivity : LoggingActivity() {
             return false
         }
 
-        if (!isValidUsername(username)) {
-            showToast("Имя пользователя должно содержать от 8 до 20 символов")
-            editTextUsernameNew.requestFocus()
-            return false
-        }
-
         return true
     }
 
+    private fun isValidUsername(username: String): Boolean {
+        val usernameRegex = "^[a-zA-Z0-9_]{3,20}$"
+        return Pattern.matches(usernameRegex, username)
+    }
+
+    private fun isValidPassword(password: String): Boolean {
+        val hasLetter = password.any { it.isLetter() }
+        val hasDigit = password.any { it.isDigit() }
+        return hasLetter && hasDigit && password.length >= 5
+    }
+
+    private fun isValidEmail(email: String): Boolean {
+        return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()
+    }
+
+    // Обновленная функция регистрации
     private fun registerNewUser(user: User): Boolean {
         if (checkIfUserExists(user.username, user.email)) {
             showToast("Пользователь с таким именем или email уже существует")
@@ -139,6 +150,8 @@ class SignUpActivity : LoggingActivity() {
         }
 
         if (saveUserToDatabase(user)) {
+            // ДОБАВЛЯЕМ пользователя в список для проверки при входе
+            addUserToRegisteredList(user)
             showToast("Регистрация прошла успешно")
             return true
         } else {
@@ -147,20 +160,23 @@ class SignUpActivity : LoggingActivity() {
         }
     }
 
+    private fun addUserToRegisteredList(user: User) {
+        // Добавляем пользователя в общий список для проверки при входе
+        UserManager.registeredUsers.add(user)
+    }
+
     private fun checkIfUserExists(username: String, email: String): Boolean {
-        return false
+        // Проверяем нет ли пользователя с таким username или email
+        return UserManager.registeredUsers.any {
+            it.username.equals(username, ignoreCase = true) ||
+                    it.email.equals(email, ignoreCase = true)
+        }
     }
 
     private fun saveUserToDatabase(user: User): Boolean {
+        // В реальном приложении здесь будет сохранение в БД
+        // Пока просто возвращаем true для демонстрации
         return true
-    }
-
-    private fun isValidEmail(email: String): Boolean {
-        return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()
-    }
-
-    private fun isValidUsername(username: String): Boolean {
-        return username.length in 8..20
     }
 
     private fun showToast(message: String) {
